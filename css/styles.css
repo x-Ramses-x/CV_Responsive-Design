@@ -261,3 +261,18 @@ h4 {
   margin: 0;
   color: #ffffff;
 }
+
+@media (min-width: 768px) {
+  .contenido-sobre-mi {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.texto-sobre-mi blockquote {
+  display: flex;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+  padding: 2rem 0 1rem 0;
+  justify-content: center;
+}
