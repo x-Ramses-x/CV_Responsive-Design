@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ronnie Fields</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100;1,300;1,400;1,700;1,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="contenedor contenido-header">
+        <div class="barra">
+          <a href="/">
+            <img src="img/logo.png" alt="Logotipo" />
+          </a>
+
+          <div class="mobile-menu">
+            <a href="#navegacion">
+              <img src="img/barras.svg" alt="Icono Menu" />
+            </a>
+          </div>
+
+          <nav id="navegacion" class="navegacion">
+            <a href="sobre-mi.html">Sobre mi</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="contacto.html">Contacto</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <h1 class="fw-300 centrar-texto">Contacto</h1>
+    <img src="img/img-contacto.jpg" alt="Imagen Contacto" />
+
+    <main class="contenedor seccion contenido-centrado">
+      <h2 class="fw-300 centrar-texto">Completa el formulario de contacto</h2>
+
+      <form class="contacto" action="">
+        <fieldset>
+          <legend>Información Personal</legend>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" placeholder="Tu Nombre" />
+
+          <label for="email">E-mail: </label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Tu Correo electrónico"
+            required
+          />
+
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" placeholder="Tu Teléfono" required />
+
+          <label for="mensaje">Mensaje: </label>
+          <textarea id="mensaje"></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>Contacto</legend>
+          <p>Como desea que nos pongamos en contacto:</p>
+
+          <div class="forma-contacto">
+            <label for="telefono">Teléfono</label>
+            <input
+              type="radio"
+              name="contacto"
+              value="telefono"
+              id="telefono"
+            />
+
+            <label for="correo">E-mail</label>
+            <input type="radio" name="contacto" value="correo" id="correo" />
+          </div>
+        </fieldset>
+
+        <input type="submit" value="Enviar" class="boton boton-azul" />
+      </form>
+    </main>
+
+    <footer class="site-footer seccion">
+      <div class="contenedor contenedor-footer">
+        <nav class="navegacion">
+          <a href="sobre-mi.html">Sobre mi</a>
+          <a href="proyectos.html">Proyectos</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+        <p class="copyright">Todos los Derechos Reservados 2023 &copy;</p>
+      </div>
+    </footer>
+  </body>
+</html>
