@@ -1,6 +1,14 @@
 # Proyecto portafolio
 
-Proyecto que trata sobre la creación de un portafolio de un desarrollador web para la consigna de Ticmas.
+Proyecto que trata sobre la creación de un portafolio responsive web design de un desarrollador web para la consigna de Ticmas.
+
+## Ejemplo vista Desktop
+
+<img src="/img/vista-desktop.jpg" alt="vista desktop">
+
+## Ejemplo vista Movil
+
+<img src="/img/vista-movil.jpg" alt="vista movil">
 
 ## Recursos
 
@@ -24,3 +32,6 @@ Proyecto que trata sobre la creación de un portafolio de un desarrollador web p
 <a href="https://budayzen.com/" target="_blank">Buda y Zen</a>
 <a href="https://jardineriaplantasyflores.com/" target="_blank">Jardineria Plantas y Flores
 </a>
+
+**Autor:**
+<a href="https://github.com/x-Ramses-x" target="_blank">x-Ramses-x</a>
